@@ -1,12 +1,14 @@
 {
-  "name": "atlas",
+  "name": "Kyle",
   "version": "0.0.0",
   "private": true,
   "author": "kyle.russell@e-hps.com",
   "description": "The humanoid sidekick for the atlas team",
   "dependencies": {
+    "flowdock": "^0.9.1",
     "hubot": "^2.19.0",
     "hubot-diagnostics": "0.0.2",
+    "hubot-flowdock": ">= 0.0.1",
     "hubot-google-images": "^0.2.7",
     "hubot-google-translate": "^0.2.1",
     "hubot-help": "^0.2.2",
@@ -17,8 +19,7 @@
     "hubot-rules": "^0.1.2",
     "hubot-scripts": "^2.17.2",
     "hubot-shell": "^1.0.2",
-    "hubot-shipit": "^0.2.1",
-    "hubot-flowdock": ">= 0.0.1"
+    "hubot-shipit": "^0.2.1"
   },
   "engines": {
     "node": "0.10.x"
